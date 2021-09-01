@@ -1,5 +1,14 @@
 # linux-commands  
 
+### File related   
+creates a new file   
+touch newFile.txt 
+
+open a file  
+nano newFile.txt  
+
+create and insert into a file   
+cat > newFile.txt  
 
 Set Path
 
