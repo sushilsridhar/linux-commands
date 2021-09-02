@@ -1,6 +1,6 @@
 # linux-commands  
 
-### File related   
+### 1. File related   
 **creates a new file**   
 touch newFile.txt 
 
@@ -13,11 +13,19 @@ cat > newFile.txt
 **remove a file**  
 rm newFile.txt
 
-Set Path
+### 2. Set Path
 
-open ~/.bash_profile
+open ~/.bash_profile  
+
+**Java Path Setup for example**  
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home  
+export PATH=$PATH:JAVA_HOME
+
+**for changes to reflect immediately**  
 source ~/.bash_profile
 
+
+-----------------
 view hidden file
 
 ls -ld .?* 
