@@ -1,3 +1,11 @@
+# linux
+
+Linux is kernel
+Unix is operating system
+
+power on -> CPU on (POST power on self test begin) after diagnostic complete -> BIOS (stored on ROM) initializes hardware before loading operating system, 
+reads the hard drive, encounters the first piece of operating system bootstrap loader -> bootstrap loader, loads the operating system and hand over the control to it -> operating system , 1.Processor management 2.Memory management 3.Device management 4.Storage management 5.Application interface 6.User interface  
+
 # linux-commands  
 
 ### 1. File related   
