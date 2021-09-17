@@ -1,6 +1,7 @@
 # linux
 
 Linux is kernel  
+kernel is a system software within the operating system  
 Unix is operating system
 
 # How computer starts  
