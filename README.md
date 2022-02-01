@@ -6,7 +6,22 @@ Unix is operating system
 
 # linux-commands  
 
-### 1. File related   
+### 1. Servers
+**Apache Tomcat Server**  
+./startup.sh  
+./shutdown.sh 
+  
+**Apache HTTP Server** 
+
+sudo apachectl start  
+sudo apachectl stop  
+sudo apachectl restart  
+
+**Json Server**   
+start server  
+json-server --watch db.json -p 3001 -d 2000  
+
+### 2. File and Directory operations   
 **creates a new file**   
 touch newFile.txt 
 
@@ -17,9 +32,36 @@ nano newFile.txt
 cat > newFile.txt  
 
 **remove a file**  
-rm newFile.txt
+rm newFile.txt  
 
-### 2. Set Path
+**create**  
+mkdir dir_name  
+
+**move**  
+mv file_1.txt /home/username/office
+mv directory_1/ /home/username/office/
+
+**remove**  
+rm file  
+rm directory  
+rm -rf /path/to/directory - removes all sub folders too  
+
+### 3. Utilities
+
+**Kill a process**   
+lsof -i:8080  
+kill (pid of process)
+  
+**Get IP Address**   
+ipconfig getifaddr en0
+
+**View hidden file**   
+ls -ld .?*  
+
+**32bit or 64bit system**   
+getconf LONG_BIT  
+
+### 4. Set Path
 
 open ~/.bash_profile  
 
@@ -28,32 +70,4 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Hom
 export PATH=$PATH:JAVA_HOME
 
 **for changes to reflect immediately**  
-source ~/.bash_profile
-
-
------------------
-view hidden file
-
-ls -ld .?* 
-
-32 bit or 64 bit
-
-getconf LONG_BIT
-
-Directory Operations
-
-Move,remove a file, directory
-
-mv file_1.txt /home/pungki/office
-
-mv directory_1/ /home/pungki/office/
-
-rm file
-rm directory
-
-
-Remove Folder:
-
-To remove the folder with all its contents(including all interior folders):
-
-rm -rf /path/to/directory
+source ~/.bash_profile  
