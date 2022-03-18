@@ -7,6 +7,10 @@ Unix is operating system
 # linux-commands  
 
 ### 1. Servers
+**Heroku Server**  
+heroku create project-name(domain-name is same)    
+git push heroku master  
+
 **Apache Tomcat Server**  
 ./startup.sh  
 ./shutdown.sh 
