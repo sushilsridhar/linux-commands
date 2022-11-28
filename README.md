@@ -56,8 +56,8 @@ rm -rf /path/to/directory - removes all sub folders too
 lsof -i:8080  
 kill (pid of process)
   
-**Get IP Address**   
-ipconfig getifaddr en0
+**Get IP and MAC Address**   
+ifconfig en0
 
 **View hidden file**   
 ls -ld .?*  
