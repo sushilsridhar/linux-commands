@@ -2,30 +2,10 @@
 
 Linux is kernel  
 kernel is a system software within the operating system  
-Unix is operating system
+Unix is operating system 
 
-# linux-commands  
+# File and Directory operations  
 
-### 1. Servers
-**Heroku Server**  
-heroku create project-name(domain-name is same)    
-git push heroku master  
-
-**Apache Tomcat Server**  
-./startup.sh  
-./shutdown.sh 
-  
-**Apache HTTP Server** 
-
-sudo apachectl start  
-sudo apachectl stop  
-sudo apachectl restart  
-
-**Json Server**   
-start server  
-json-server --watch db.json -p 3001 -d 2000  
-
-### 2. File and Directory operations   
 **creates a new file**   
 touch newFile.txt 
 
@@ -49,6 +29,24 @@ mv directory_1/ /home/username/office/
 rm file  
 rm directory  
 rm -rf /path/to/directory - removes all sub folders too  
+### 1. Servers
+**Heroku Server**  
+heroku create project-name(domain-name is same)    
+git push heroku master  
+
+**Apache Tomcat Server**  
+./startup.sh  
+./shutdown.sh 
+  
+**Apache HTTP Server** 
+
+sudo apachectl start  
+sudo apachectl stop  
+sudo apachectl restart  
+
+**Json Server**   
+start server  
+json-server --watch db.json -p 3001 -d 2000  
 
 ### 3. Utilities
 
